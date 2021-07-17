@@ -1,0 +1,21 @@
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 30vh;
+}
+.container div {
+  cursor: pointer;
+  width: 20%;
+  margin: 0 auto;
+  padding: 5px;
+}
+.container div:hover {
+  background-color: aliceblue;
+  color: black;
+}
+@media screen and (max-width: 650px) {
+  .container div{
+    width: 50%;
+  }
+}

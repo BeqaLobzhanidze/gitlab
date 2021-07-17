@@ -1,0 +1,31 @@
+.container {
+  min-height: 50vh;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  border: 2px solid white;
+  color: aliceblue;
+}
+.newquiz,
+.restart {
+  font-size: 15px;
+  padding: 5px;
+  width: 150px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  cursor: pointer;
+}
+.restart{
+  margin: 0 auto;
+}
+.newquiz:hover,
+.restart:hover {
+  background-color: black;
+  color: aliceblue;
+}
+@media screen and (max-width: 650px) {
+  .container {
+    width: 90%;
+    border: 2px solid white;
+  }
+}
